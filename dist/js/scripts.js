@@ -5,7 +5,7 @@
 */
 //
 // Scripts
-// 
+//
 
 window.addEventListener('DOMContentLoaded', event => {
 
@@ -29,6 +29,30 @@ window.addEventListener('DOMContentLoaded', event => {
                 navbarToggler.click();
             }
         });
+    });
+
+});
+
+
+document.addEventListener('DOMContentLoaded', function () {
+
+    // Get the link and modal elements
+    var phoneLink = document.getElementById("phoneLink");
+    var modal = document.getElementById("myModal");
+    var phoneNumberSpan = document.getElementById("phoneNumber");
+
+    // Add a click event listener to the link
+    phoneLink.addEventListener("click", function (event) {
+        event.preventDefault(); // Prevent the link from navigating to a different page
+
+        // Get the phone number from the data attribute
+        var phoneNumber = phoneLink.getAttribute("data-phone-number");
+
+        // Set the phone number in the modal
+        phoneNumberSpan.textContent = phoneNumber;
+
+        // Display the modal
+        modal.style.display = "block";
     });
 
 });
