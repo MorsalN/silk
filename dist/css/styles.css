@@ -11303,6 +11303,22 @@ p.lead {
   background-color: #3b9ccc;
 }
 
+.viber {
+  background-color: #7360f2;
+}
+
+.viber:hover {
+  background-color: #a599f0;
+}
+
+.wechat {
+  background-color: #09b83e;
+}
+
+.wechat:hover {
+  background-color: #63e089;
+}
+
 /* .navbar {
   background-image: url('../assets/img/sozani.jpeg');
   background-size: cover;
