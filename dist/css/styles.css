@@ -11529,3 +11529,10 @@ body {
 #see-more-button {
   margin-left: 40%;
 }
+
+@media (max-width: 767px) {
+  .img-size-mobile {
+    width: 330px;
+    height: 300px;
+  }
+}
