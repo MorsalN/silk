@@ -11536,3 +11536,10 @@ body {
     height: 300px;
   }
 }
+
+@media (max-width: 767px) {
+  .img-size-mobile-2 {
+    width: 330px;
+    height: 400px;
+  }
+}
